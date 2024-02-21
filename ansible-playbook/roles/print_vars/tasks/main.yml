@@ -1,0 +1,7 @@
+---
+- name: Print "Hello"
+  ansible.builtin.debug:
+    var: var1
+- name: Print "Hello, World!"
+  ansible.builtin.debug:
+    var: var2

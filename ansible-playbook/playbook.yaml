@@ -1,0 +1,5 @@
+---
+- name: Print variables
+  hosts: controller
+  roles:
+    - print_vars

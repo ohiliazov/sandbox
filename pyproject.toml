@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Hiliazov <oleksandr.hiliazov@robivision.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+ansible = "^9.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
